@@ -98,7 +98,7 @@ class App extends Component {
         </section>
 
         <section>
-          
+
           <div>
             <img src="" alt=""/>
           </div>
@@ -122,6 +122,10 @@ class App extends Component {
           </div>
 
         </section>
+
+        <footer>
+          <p>Copyright &copy; 2020</p>
+        </footer>
 
       </div>
     );
