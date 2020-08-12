@@ -49,7 +49,6 @@ section {
 }
 
 header {
-  
   background-image: url("./assets/home-header.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -72,6 +71,11 @@ header ul {
 
 header li a {
   text-decoration: none;
+  color: white;
+}
+
+header li:nth-child(n+2) {
+  margin-left: 25px;
 }
 
 
