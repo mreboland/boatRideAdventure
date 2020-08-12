@@ -20,7 +20,7 @@ class App extends Component {
           </div>
         </header>
 
-        <section>
+        <section className="aboutUs">
           <div className="wrapper">
           <ul>
             <li>
@@ -59,7 +59,7 @@ class App extends Component {
           </div>
         </section>
 
-        <section>
+        <section className="whatWeDo">
           <div className="wrapper">
             <div>
 
@@ -90,7 +90,7 @@ class App extends Component {
           </div>
         </section>
 
-        <section>
+        <section className="timeOff">
 
           <div className="wrapper">
             <div>
@@ -102,38 +102,32 @@ class App extends Component {
 
         </section>
 
-        <section>
-          <img src="" alt=""/>
+        <section className="banner">
+          {/* <img src={require("./assets/banner.jpg")} alt=""/> */}
         </section>
 
-        <section>
-
-          <div className="wrapper">
+        <section className="prize">
+          <div className="wrapper prizeMainContent">
             <div>
-              <img src="" alt=""/>
+              <img src={require("./assets/small-box.jpg")} alt="Girl in hat looking at snowy mountains"/>
             </div>
 
-            <div>
+            <div className="prizeInfo">
               <h2>WIN A TRIP OF A LIFETIME</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum tempore laudantium dolorem! Eligendi natus perferendis similique harum, corrupti possimus quod nesciunt veritatis sequi aut blanditiis accusamus modi voluptatibus praesentium est laborum rem, repellendus magnam? Ab temporibus, consectetur delectus officiis atque ut, amet magnam optio id necessitatibus ex placeat officia! Quidem?</p>
               <button>FIND OUT MORE</button>
             </div>
           </div>
-
-
         </section>
 
-        <section>
+        <section className="gallery">
           <div className="wrapper">
-            <div>
-              <ul>
-                <li><img src="" alt=""/></li>
-                <li><img src="" alt=""/></li>
-                <li><img src="" alt=""/></li>
-              </ul>
-            </div>
+            <ul>
+              <li><img src={require("./assets/gallery-image-1.jpg")} alt="School playground"/></li>
+              <li><img src={require("./assets/gallery-image-2.jpg")} alt="Kid hiding in school playground"/></li>
+              <li><img src={require("./assets/gallery-image-3.jpg")} alt="Kids playing tug-of-war"/></li>
+            </ul>
           </div>
-
 
         </section>
 
