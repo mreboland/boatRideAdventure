@@ -14,6 +14,7 @@ ul {
 img {
   display: block;
   width: 100%;
+  box-shadow: -10px 10px 0px 0px rgba(253,217,8,1);
 }
 
 h1 {
@@ -78,11 +79,28 @@ header li:nth-child(n+2) {
   margin-left: 25px;
 }
 
-
 .aboutUs,
 .timeOff,
 .prize {
   background-color: #eafefc;
+}
+
+.aboutUs ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aboutUs li {
+  width: 50%;
+}
+
+.aboutUs li:nth-child(2),
+.aboutUs li:nth-child(4) {
+  /* margin-left: 25px; */
+}
+
+.whatWeDoMain {
+  display: flex;
 }
 
 .banner {
@@ -113,7 +131,10 @@ header li:nth-child(n+2) {
 
 .gallery li:nth-child(n+2) {
   margin-left: 20px;
+}
 
+.gallery img {
+  box-shadow: none;
 }
 
 footer {

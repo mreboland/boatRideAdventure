@@ -60,11 +60,11 @@ class App extends Component {
         </section>
 
         <section className="whatWeDo">
-          <div className="wrapper">
+          <div className="wrapper whatWeDoMain">
             <div>
 
               <div>
-                <img src="" alt=""/>
+                <img src={require("./assets/left-image.jpg")} alt=""/>
               </div>
               <div>
                 <h2>OUR PROGRAMS</h2>
@@ -82,7 +82,7 @@ class App extends Component {
                 <button>READ MORE</button>
               </div>
               <div>
-                <img src="" alt="" />
+                <img src={require("./assets/right-image.jpg")} alt="" />
               </div>
 
             </div>
